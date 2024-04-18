@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+.container {
+  background-image: linear-gradient(to right, yellow, red);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 20vh auto;
+  width: fit-content;
+  padding: 1.5rem;
+}
+
+.title {
+  margin-top: 1rem;
+}
+.date-cotainer {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+button {
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: medium;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  background: red;
+}
+
+:disabled {
+  background: wheat;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.days {
+  background: rgb(101, 101, 101);
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.text {
+  font-size: 1rem;
+}
+
+.hours {
+  background: rgb(101, 101, 101);
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.minute {
+  background: rgb(101, 101, 101);
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.second {
+  background: rgb(101, 101, 101);
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
